@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from '../Componentes/Header';
-import BodyNew from '../Componentes/BodyNew';
+import BodyNew from '../Componentes/Body/BodyNew';
 import Footer from '../Componentes/Footer';
 
 

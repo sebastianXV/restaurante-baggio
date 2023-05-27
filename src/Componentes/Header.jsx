@@ -3,13 +3,16 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar bg="light" variant="light">
-      <Container>
+    <Navbar bg="dark" variant="dark">
+      <Container >
+        <Navbar.Brand href="/" className="mr-auto ml-4">
+          Roberto Baggio
+        </Navbar.Brand>
         <Nav className="me-auto">
           <NavLink to="/directory" className="nav-link" activeClassName="active">
             Directorio
           </NavLink>
-          <NavLink to="/home" className="nav-link" activeClassName="active">
+          <NavLink to="/" className="nav-link" activeClassName="active">
             Restaurantes
           </NavLink>
           <NavLink to="/search" className="nav-link" activeClassName="active">
@@ -21,6 +24,7 @@ function Header() {
         </Nav>
       </Container>
     </Navbar>
+
   );
 }
 

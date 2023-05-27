@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from '../Componentes/Header';
-import BodyHome from '../Componentes/BodyHome';
+import BodyHome from '../Componentes/Body/BodyRestaurants';
 import Footer from '../Componentes/Footer';
 
-function HomePage() {
+function RestaurantsPage() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Header />
@@ -15,5 +15,5 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default RestaurantsPage;
 

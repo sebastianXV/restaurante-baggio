@@ -28,21 +28,18 @@ function Footer() {
                             </a>
                         </Col>
                         <Col>
-                            <a href="https://www.linkedin.com" className="btn btn-outline-light btn-floating m-1" role="button">
+                            <a href="https://www.linkedin.com/in/sebastian-rojas-2ba603245" className="btn btn-outline-light btn-floating m-1" role="button">
                                 <FontAwesomeIcon icon={faLinkedinIn} />
                             </a>
                         </Col>
                         <Col>
-                            <a href="https://www.github.com" className="btn btn-outline-light btn-floating m-1" role="button">
+                            <a href="https://github.com/sebastianXV" className="btn btn-outline-light btn-floating m-1" role="button">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </Col>
                     </Row>
                 </Container>
 
-                <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    &copy; 2023 Your Website. All rights reserved.
-                </div>
             </footer>
 
     );
