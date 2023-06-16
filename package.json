@@ -1,5 +1,6 @@
 {
   "name": "restaurante-baggio",
+  "homepage": "https://sebastianXV.github.io/restaurante-baggio/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
